@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>URLGuard</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+ URLGuard
+</div>
+
+<ul>
+
+<li><a href="#">Home</a></li>
+
+<li><a href="#analyze">Analyze</a></li>
+
+<li><a href="#about">About</a></li>
+
+</ul>
+
+</nav>
+
+<section class="hero">
+
+<h1>URL<span>Guard</span></h1>
+
+<h2>Protect Yourself From Phishing Attacks</h2>
+
+<p>
+Analyze suspicious URLs before clicking them and
+stay safe from phishing websites.
+</p>
+
+<a href="#analyze" class="btn">
+Analyze Now →
+</a>
+
+</section>
+
+<section id="analyze" class="monitor">
+
+<h2>Analyze URL</h2>
+
+<p>
+Paste any website URL below to check whether
+it looks suspicious.
+</p>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>How It Works</h3>
+
+<ol>
+
+<li>Paste a URL</li>
+
+<li>Click Analyze</li>
+
+<li>View Risk Level</li>
+
+<li>Stay Safe Online</li>
+
+</ol>
+
+<input
+type="text"
+id="urlInput"
+placeholder="https://example.com">
+
+<button onclick="analyzeURL()">
+Analyze URL
+</button>
+
+</div>
+
+<div class="card">
+
+<h3>Scan Result</h3>
+
+<div id="result">
+
+<h1></h1>
+
+<h2>No URL analyzed yet.</h2>
+
+<p>
+Paste a URL and click Analyze.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="about" class="about">
+
+<h2>About URLGuard</h2>
+
+<p>
+
+URLGuard is an educational cybersecurity project
+that helps users identify potentially suspicious URLs.
+
+It analyzes common phishing indicators and provides
+an estimated risk level before users click on a link.
+
+</p>
+
+</section>
+
+<footer>
+
+© 2026 URLGuard | Cybersecurity Awareness Project for 15 days training in Cybersecurity
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
